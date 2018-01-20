@@ -48,8 +48,9 @@
 }
 // MARK: - UITextViewDelegate
 -(void)textViewDidBeginEditing:(UITextView *)textView{
-    _textView.text = @"";
     _code4.backgroundColor = _code3.backgroundColor = _code2.backgroundColor= _code1.backgroundColor = [UIColor colorWithHex:0xf5f5f5];
+    _textView.text = @"";
+    [self textViewDidChange:textView];
 }
 -(void)textViewDidEndEditing:(UITextView *)textView{
     _code4.backgroundColor = _code3.backgroundColor = _code2.backgroundColor= _code1.backgroundColor = [UIColor clearColor];
