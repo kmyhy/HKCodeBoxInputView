@@ -76,5 +76,6 @@
             label.text = nil;
         }
     }
+    [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 @end

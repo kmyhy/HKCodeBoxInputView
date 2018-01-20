@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HKCodeBoxInputView : UIView<UITextViewDelegate>{
+@interface HKCodeBoxInputView : UIControl<UITextViewDelegate>{
     int maxTextLength;
     NSArray* codeLabels;
 }

@@ -13,9 +13,9 @@
 		12F0EAC4201323B500D9C080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F0EAC3201323B500D9C080 /* Assets.xcassets */; };
 		12F0EAC7201323B500D9C080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F0EAC5201323B500D9C080 /* LaunchScreen.storyboard */; };
 		12F0EACA201323B500D9C080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EAC9201323B500D9C080 /* main.m */; };
-		12F0EAD22013240A00D9C080 /* HKCodeBoxInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EAD12013240A00D9C080 /* HKCodeBoxInputView.m */; };
-		12F0EAD42013241C00D9C080 /* HKCodeBoxInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F0EAD32013241C00D9C080 /* HKCodeBoxInputView.xib */; };
 		12F0EAD720132F7500D9C080 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EAD620132F7500D9C080 /* UIColor+Hex.m */; };
+		12F0EAE320133EAF00D9C080 /* HKCodeBoxInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EAE220133EAF00D9C080 /* HKCodeBoxInputView.m */; };
+		12F0EAE5201342A500D9C080 /* HKCodeBoxInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F0EAE4201342A400D9C080 /* HKCodeBoxInputView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		12F0EAC6201323B500D9C080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F0EAC8201323B500D9C080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12F0EAC9201323B500D9C080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		12F0EAD02013240A00D9C080 /* HKCodeBoxInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKCodeBoxInputView.h; sourceTree = "<group>"; };
-		12F0EAD12013240A00D9C080 /* HKCodeBoxInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKCodeBoxInputView.m; sourceTree = "<group>"; };
-		12F0EAD32013241C00D9C080 /* HKCodeBoxInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HKCodeBoxInputView.xib; sourceTree = "<group>"; };
 		12F0EAD520132F7400D9C080 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		12F0EAD620132F7500D9C080 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		12F0EAE120133EAF00D9C080 /* HKCodeBoxInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCodeBoxInputView.h; sourceTree = "<group>"; };
+		12F0EAE220133EAF00D9C080 /* HKCodeBoxInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCodeBoxInputView.m; sourceTree = "<group>"; };
+		12F0EAE4201342A400D9C080 /* HKCodeBoxInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKCodeBoxInputView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,9 @@
 				12F0EABE201323B500D9C080 /* ViewController.m */,
 				12F0EAD520132F7400D9C080 /* UIColor+Hex.h */,
 				12F0EAD620132F7500D9C080 /* UIColor+Hex.m */,
-				12F0EAD02013240A00D9C080 /* HKCodeBoxInputView.h */,
-				12F0EAD12013240A00D9C080 /* HKCodeBoxInputView.m */,
-				12F0EAD32013241C00D9C080 /* HKCodeBoxInputView.xib */,
+				12F0EAE120133EAF00D9C080 /* HKCodeBoxInputView.h */,
+				12F0EAE220133EAF00D9C080 /* HKCodeBoxInputView.m */,
+				12F0EAE4201342A400D9C080 /* HKCodeBoxInputView.xib */,
 				12F0EAC0201323B500D9C080 /* Main.storyboard */,
 				12F0EAC3201323B500D9C080 /* Assets.xcassets */,
 				12F0EAC5201323B500D9C080 /* LaunchScreen.storyboard */,
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F0EAC7201323B500D9C080 /* LaunchScreen.storyboard in Resources */,
-				12F0EAD42013241C00D9C080 /* HKCodeBoxInputView.xib in Resources */,
+				12F0EAE5201342A500D9C080 /* HKCodeBoxInputView.xib in Resources */,
 				12F0EAC4201323B500D9C080 /* Assets.xcassets in Resources */,
 				12F0EAC2201323B500D9C080 /* Main.storyboard in Resources */,
 			);
@@ -156,9 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F0EAE320133EAF00D9C080 /* HKCodeBoxInputView.m in Sources */,
 				12F0EABF201323B500D9C080 /* ViewController.m in Sources */,
 				12F0EAD720132F7500D9C080 /* UIColor+Hex.m in Sources */,
-				12F0EAD22013240A00D9C080 /* HKCodeBoxInputView.m in Sources */,
 				12F0EACA201323B500D9C080 /* main.m in Sources */,
 				12F0EABC201323B500D9C080 /* AppDelegate.m in Sources */,
 			);

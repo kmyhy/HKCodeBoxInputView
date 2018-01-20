@@ -18,8 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.codeInput.keyBoardType = UIKeyboardTypeNumberPad;
+    
+    [self.codeInput addTarget:self action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
 }
-
+-(void)valueChanged:(UIControl*)sender{
+    NSLog(@"^^^^%@",self.codeInput.text);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
