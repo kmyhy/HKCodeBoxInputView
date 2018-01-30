@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C3D091202057C300A45B62 /* HKLaserLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3D090202057C300A45B62 /* HKLaserLine.m */; };
 		12F0EABC201323B500D9C080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EABB201323B500D9C080 /* AppDelegate.m */; };
 		12F0EABF201323B500D9C080 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0EABE201323B500D9C080 /* ViewController.m */; };
 		12F0EAC2201323B500D9C080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F0EAC0201323B500D9C080 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C3D08F202057C300A45B62 /* HKLaserLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKLaserLine.h; sourceTree = "<group>"; };
+		12C3D090202057C300A45B62 /* HKLaserLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKLaserLine.m; sourceTree = "<group>"; };
 		12F0EAB7201323B500D9C080 /* HKCodeBoxInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKCodeBoxInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F0EABA201323B500D9C080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12F0EABB201323B500D9C080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				12F0EAD620132F7500D9C080 /* UIColor+Hex.m */,
 				12F0EAE120133EAF00D9C080 /* HKCodeBoxInputView.h */,
 				12F0EAE220133EAF00D9C080 /* HKCodeBoxInputView.m */,
+				12C3D08F202057C300A45B62 /* HKLaserLine.h */,
+				12C3D090202057C300A45B62 /* HKLaserLine.m */,
 				12F0EAE4201342A400D9C080 /* HKCodeBoxInputView.xib */,
 				12F0EAC0201323B500D9C080 /* Main.storyboard */,
 				12F0EAC3201323B500D9C080 /* Assets.xcassets */,
@@ -160,6 +165,7 @@
 				12F0EABF201323B500D9C080 /* ViewController.m in Sources */,
 				12F0EAD720132F7500D9C080 /* UIColor+Hex.m in Sources */,
 				12F0EACA201323B500D9C080 /* main.m in Sources */,
+				12C3D091202057C300A45B62 /* HKLaserLine.m in Sources */,
 				12F0EABC201323B500D9C080 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

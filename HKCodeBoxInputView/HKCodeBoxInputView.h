@@ -7,20 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HKLaserLine.h"
 
 @interface HKCodeBoxInputView : UIControl<UITextViewDelegate>{
     int maxTextLength;
     NSArray* codeLabels;
+    NSArray* lineViews;
 }
 @property (strong, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UILabel *code1;
 @property (weak, nonatomic) IBOutlet UILabel *code2;
 @property (weak, nonatomic) IBOutlet UILabel *code3;
 @property (weak, nonatomic) IBOutlet UILabel *code4;
-@property (weak, nonatomic) IBOutlet UIView *line1;
-@property (weak, nonatomic) IBOutlet UIView *line2;
-@property (weak, nonatomic) IBOutlet UIView *line3;
-@property (weak, nonatomic) IBOutlet UIView *line4;
+@property (weak, nonatomic) IBOutlet HKLaserLine *line1;
+@property (weak, nonatomic) IBOutlet HKLaserLine *line2;
+@property (weak, nonatomic) IBOutlet HKLaserLine *line3;
+@property (weak, nonatomic) IBOutlet HKLaserLine *line4;
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (strong,readonly) NSString* text;

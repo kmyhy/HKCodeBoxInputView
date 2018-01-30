@@ -35,6 +35,7 @@
     _textView.keyboardType = UIKeyboardTypeDefault;
     
     codeLabels = @[_code1,_code2,_code3,_code4];
+    lineViews = @[_line1,_line2,_line3,_line4];
 }
 // MARK: - Setter
 -(void)setKeyBoardType:(UIKeyboardType)type{
@@ -48,12 +49,15 @@
 }
 // MARK: - UITextViewDelegate
 -(void)textViewDidBeginEditing:(UITextView *)textView{
-    _code4.backgroundColor = _code3.backgroundColor = _code2.backgroundColor= _code1.backgroundColor = [UIColor colorWithHex:0xf5f5f5];
+    _code4.backgroundColor = _code3.backgroundColor = _code2.backgroundColor= _code1.backgroundColor = [UIColor colorWithHex:0xf5f5f5 alpha:0.7];
     _textView.text = @"";
     [self textViewDidChange:textView];
 }
 -(void)textViewDidEndEditing:(UITextView *)textView{
     _code4.backgroundColor = _code3.backgroundColor = _code2.backgroundColor= _code1.backgroundColor = [UIColor clearColor];
+    for(HKLaserLine* line in lineViews){
+        [line stopAnimate];
+    }
 
 }
 - (void)textViewDidChange:(UITextView *)textView{
@@ -75,6 +79,15 @@
             label.text = num;
         }else{
             label.text = nil;
+        }
+    }
+    NSInteger charLen = text.length;
+    for(int i=0;i<lineViews.count;i++){
+        HKLaserLine* line = lineViews[i];
+        if(i==charLen){
+            [line startAnimate];
+        }else{
+            [line stopAnimate];
         }
     }
     [self sendActionsForControlEvents:UIControlEventValueChanged];
